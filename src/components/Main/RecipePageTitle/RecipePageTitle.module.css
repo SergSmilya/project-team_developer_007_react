@@ -64,7 +64,7 @@ screen and (min-width: 1440px) and (min-resolution: 2dppx) {
 .title {
   min-width: 276px;
   color: var(--PRIMARYCOLOR);
-  font-family: Poppins_Bold;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: 600;
   text-align: center;
@@ -107,7 +107,7 @@ screen and (min-width: 1440px) and (min-resolution: 2dppx) {
   display: flex;
   align-items: center;
   color: #23262a;
-  font-family: Poppins_Medium;
+  font-family: 'Poppins', sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 14px;

@@ -22,7 +22,7 @@
       format('truetype');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Poppins_Black';
   src: local('Poppins_Black'),
     url('./fonts/Poppins/Poppins-Black.ttf') format('truetype');
@@ -50,13 +50,65 @@
   font-family: 'Poppins_SemiBold';
   src: local('Poppins_SemiBold'),
     url('./fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+} */
+
+/*  */
+
+@font-face {
+  font-family: 'Poppins_Black';
+  src: local('Poppins_Black'),
+    url('./fonts/Poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  /* url('https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff') format('woff'); */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+  /* url('https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff') format('woff'); */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  /* url('https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff') format('woff'); */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  /* url('https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff') format('woff'); */
 }
 
 /*  */
 
 body {
   margin: 0;
-  font-family: 'Poppins_Regular';
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  /* font-size: 14px;
+  font-style: normal;
+  font-weight: 400; */
+  background: #fafafa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -113,7 +165,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
-  font: inherit;
+  font-family: 'Poppins', sans-serif;
   color: inherit;
 }
 

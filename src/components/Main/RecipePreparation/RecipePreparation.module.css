@@ -11,7 +11,7 @@
 
 .title {
   color: #3e4462;
-  font-family: "Poppins_Bold";
+   font-family: 'Poppins', sans-serif;
   font-feature-settings: 'liga' off;
   font-size: 24px;
   font-style: normal;
@@ -45,7 +45,7 @@
   color: #FFF;
   text-align: center;
   font-feature-settings: 'ss04' on;
-  font-family: Poppins_Bold;
+   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -57,7 +57,7 @@
 }
 
 .subtitle {
-  font-family: "Poppins_Regular";
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;

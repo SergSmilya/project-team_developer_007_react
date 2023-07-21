@@ -30,7 +30,7 @@
 
 .ingridient_title {
   color: #3e4462;
-  font-family: Poppins_Medium;
+   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
@@ -52,7 +52,7 @@
 
 .ingridient_quantity {
   color: #fafafa;
-  font-family: Poppins_Bold;
+   font-family: 'Poppins', sans-serif;
   font-size: 10px;
   font-weight: 600;
   line-height: normal;

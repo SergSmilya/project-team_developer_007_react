@@ -14,7 +14,7 @@
 .pagination_item {
   color: #656565;
   text-align: center;
-  font-family: inherit;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-feature-settings: 'ss04' on;
   font-style: normal;
@@ -43,7 +43,7 @@
   border-radius: 50%;
   width: 27px;
   height: 27px;
-  font-family: inherit;
+   font-family: 'Poppins', sans-serif;
 }
 
 .pagination_btn:hover,
